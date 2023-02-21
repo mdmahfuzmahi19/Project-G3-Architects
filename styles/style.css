@@ -1,0 +1,95 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.header{
+    background-color: #fdf3e7;
+    text-align: center;
+    }
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 228px;
+    /* background-color: aqua; */
+}
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+.button{
+    width: 150px;
+    height: 64px;
+    color: white;
+    background-color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    padding: 18px 35px;
+}
+/* this is banner styles */
+.banner {
+    margin: 0 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.banner-info{
+    
+}
+.banner-img{
+    width: 1440px;
+    height: 700px;
+}
+
+/* where is Quick list of Our
+Features */
+.first-section{
+    display: flex;
+    align-items: center
+}
+.four-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    justify-items: center;
+    margin-left: 200px;
+    margin-top: 85px;
+
+}
+.four-img img{
+    width: 342px;
+    height: 342px;
+}
+/* this is class="first-section-info */
+.first-section-info{
+    text-align: center;    
+    /* align-content: center; */
+    width: 537px;
+    height: 304px;
+    margin-left: 73px;
+}
+.text-one{
+    color: #727272;
+    font-size: 45px;
+}
+.text-two{
+    color: #131313;
+    font-size: 45px;
+}
+.text-three{
+    font-size: 45px;
+    color: #FF900E;
+}
+.first-section-des{
+    font-size: 16px;
+    color: #727272;
+}
