@@ -5,6 +5,8 @@ body{
 .header{
     background-color: #fdf3e7;
     text-align: center;
+    width: 1920px;
+    height: 1322px;
     }
 nav {
     display: flex;
