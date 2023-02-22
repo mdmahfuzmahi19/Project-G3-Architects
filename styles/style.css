@@ -6,7 +6,7 @@ body{
     background-color: #fdf3e7;
     text-align: center;
     width: 1920px;
-    height: 1322px;
+    width: 1520px;
     }
 nav {
     display: flex;
@@ -38,8 +38,8 @@ nav li {
     padding: 18px 35px;
 }
 /* this is banner styles */
-.banner {
-    margin: 0 200px;
+.banner, .section-end {
+    margin: 130px 200px;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -47,8 +47,8 @@ nav li {
 .banner-info{
     
 }
-.banner-img{
-    width: 1440px;
+.banner-img img{
+    width: 1240px;
     height: 700px;
 }
 
@@ -94,4 +94,151 @@ Features */
 .first-section-des{
     font-size: 16px;
     color: #727272;
+}
+
+/* -------------
+       second-section
+----------------- */
+.second-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 130px 240px;
+    flex-direction: column;
+    gap: 5px;
+}
+.second-section-part-one{
+    /* gap: 54px; */
+    /* margin-right: 54px; */
+    /* padding-right: 54px; */
+}
+.second-top-title, 
+.some-facts{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.second-section-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.button-big{
+    width: 342px;
+    height: 200px;
+    color: white;
+    background-color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    border-radius: 8px;
+    padding: 18px 35px;
+}
+.button-title{
+    font-weight: 700;
+    font-size: 65px;
+}
+.button-des{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/*------------- 
+          some-facts
+---------------*/
+.facts-div{
+    /* margin: 130px 200px; */
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.some-facts{
+    margin-bottom: 24px;
+}
+
+/*----------- 
+        section-box
+-------------- */
+.section-box-s{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: absolute;
+    margin: 130px 200px;
+    padding-bottom: 200px;
+    /* display: flex;
+    flex-direction: column; */
+    gap: 100px;
+}
+.section-box{
+    text-align: center;
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+.box{
+    margin-top: 20px;
+    align-items: center;
+}
+
+.box-title{
+    font-weight: 600;
+    font-size: 45px;
+}
+.box-des{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* --------
+        Our Sponspors
+----------*/
+.our-sponspors{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 500px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.logo{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+/*------------
+    footer
+-------------*/
+.footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 500px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.footer-main{
+    width: 1440px;
+    height: 100px;
+    background-color:#FFF4E7;
+    border-radius: 8px;
+}
+.footer-des{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 40px;
+    color: #424242;
+    
+}
+
+
+/* -----------
+    responsive
+--------------*/
+@media anly screen (max-width:576px) {
+    
 }
