@@ -6,8 +6,8 @@ body{
     background-color: #fdf3e7;
     text-align: center;
     width: 1920px;
-    width: 1520px;
-    }
+    height: 1322px;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -56,7 +56,7 @@ nav li {
 Features */
 .first-section{
     display: flex;
-    align-items: center
+    align-items: center;
 }
 .four-img{
     display: grid;
@@ -122,12 +122,16 @@ Features */
     font-size: 16px;
     color: #727272;
 }
+.second-section-img{
+    width: 708px;
+    height: 982px;
+}
 .button-big{
     width: 342px;
     height: 200px;
     color: white;
     background-color: #FD6E0A;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 20px;
     border: 0;
     border-radius: 8px;
@@ -181,7 +185,7 @@ Features */
 }
 
 .box-title{
-    font-weight: 600;
+    font-weight: 600px;
     font-size: 45px;
 }
 .box-des{
@@ -228,7 +232,7 @@ Features */
 .footer-des{
     display: flex;
     flex-direction: column;
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 20px;
     padding-top: 40px;
     color: #424242;
@@ -239,6 +243,143 @@ Features */
 /* -----------
     responsive
 --------------*/
-@media anly screen (max-width:576px) {
+@media screen and (max-width:576px){
+    .header{
+        background-color: #fdf3e7;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    .banner, .section-end {
+        margin: 0;
+        display: flex;
+        flex-direction: column;/
+        gap: 5px;
+    }
+    .banner-img img{
+        width: 100%;
+        height: 100%;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        flex-direction: column;
+        /* background-color: aqua; */
+    }
+    ul{
+        flex-direction: column;
+    }
+    .four-img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+        justify-items: center;
+        margin-left: 15px;
+        
+    }
+    .first-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    .first-section-info{
+        text-align: center;    
+        /* align-content: center; */
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+    .second-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .second-section-part-one{
+        gap: 54px;
+        margin-right: 254px;
+        padding-right: 54px;
+    }
+    .second-section-img{
+        width: 100%;
+        height: 100%;
+    }
+    .button-big{
+        width: 170px;
+        height: 80px;
+        color: white;
+        background-color: #FD6E0A;
+        /* font-weight: 700px;
+        font-size: 20px;
+        border: 0; */
+        border-radius: 8px;
+        padding: 18px 35px;
+    }
+    .button-title{
+        font-weight: 100%;
+        font-size: 100%;
+    }
+    .button-des{
+        font-weight: 100%;
+        font-size: 100%;
+    }
+    /* ------------------ */
+    .facts-div{
+        /* margin: 130px 200px; */
+        margin-left: 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .section-box-s{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        position: absolute;
+        margin: 0;
+        padding-bottom: 200px;
+        /* display: flex;
+        flex-direction: column; */
+        gap: 100px;
+    }
+    .our-sponspors{
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 1400px;
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .logo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
     
-}
+    }
+    /* this is footer */
+    .footer{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .footer-main{
+        width: 100%;
+        height: 100%;
+        background-color:#FFF4E7;
+        border-radius: 8px;
+    }
+    .footer-des{
+        display: flex;
+        flex-direction: column;
+        font-weight: 400px;
+        font-size: 20px;
+        padding-top: 40px;
+        color: #424242;
+        
+    }
+    
+}    
